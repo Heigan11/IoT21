@@ -1,0 +1,23 @@
+ссылки с ресурсами и описаниями:
+
+Система:
+https://releases.ubuntu.com/18.04/ - берем образ убунту
+(пробовал 22 релиз - не завелось)
+
+Докер:
+https://docs.docker.com/engine/install/ubuntu/ - установка
+https://docs.docker.com/engine/install/linux-postinstall/ - настройка
+
+К3d:
+curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
+
+K3s:
+https://docs.k3s.io/installation/configuration
+https://fabianlee.org/2022/01/27/kubernetes-using-kubectl-to-wait-for-condition-of-pods-deployments-services/ - wait deployment
+
+ArgoCD:
+https://argo-cd.readthedocs.io/en/stable/getting_started/ - установка и настройка, и установка пароля (чуть ниже)
+https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/ - пример yaml
+
+https://localhost:8080/applications
+curl http://localhost:8888/
