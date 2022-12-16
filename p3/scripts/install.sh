@@ -1,5 +1,4 @@
-sudo apt update -y
-sudo apt upgrade -y
+#!/bin/bash
 
 sudo apt install curl -y
 
