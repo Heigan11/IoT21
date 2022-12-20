@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'http://gitlab.example.com/root/iotk3d.git'
+    repoURL: 'http://10.0.2.15/root/iotk3d.git'
     path: manifests
     targetRevision: HEAD
   destination:
